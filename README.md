@@ -79,7 +79,7 @@ Ensure the following are installed:
 
 1. **Clone the repository**  
    ```bash
-   git clone https://github.com/vijaygla/Job_Portal.git
+   git clone https://github.com/NileshSingh66/Job_Portal
    cd Job_Portal
    npm install
 

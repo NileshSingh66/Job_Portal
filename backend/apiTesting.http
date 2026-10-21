@@ -7,10 +7,10 @@ POST {{host}}/register
 Content-Type: application/json
 
 {
-    "fullname":"vijay",
-    "email":"vijayji@gmail.com",
+    "fullname":"Nilesh",
+    "email":"Nilesh@gmail.com",
     "phoneNumber":"1234567890",
-    "password":"vijay123",
+    "password":"Nilesh123",
     "role":"recruiter"
 }
 
@@ -20,10 +20,10 @@ POST {{host}}/register
 Content-Type: application/json
 
 {
-    "fullname":"Vijay",
-    "email":"vijay@gmail.com",
+    "fullname":"Nilesh",
+    "email":"Nilesh@gmail.com",
     "phoneNumber":"1234567890",
-    "password":"vijay123",
+    "password":"Nilesh123",
     "role":"student"
 }
 
