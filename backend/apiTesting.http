@@ -32,8 +32,8 @@ POST {{host}}/login
 Content-Type: application/json
 
 {
-    "email":"vijayji@gmail.com",
-    "password":"vijay123",
+    "email":"Nilesh@gmail.com",
+    "password":"Nilesh123",
     "role":"recruiter"
 }
 ###
@@ -41,8 +41,8 @@ POST {{host}}/login
 Content-Type: application/json
 
 {
-    "email":"vijay@gmail.com",
-    "password":"vijay123",
+    "email":"Nilesh@gmail.com",
+    "password":"Nilesh123",
     "role":"student"
 }
 
@@ -53,7 +53,7 @@ POST {{host}}/profile/update
 Content-Type: application/json
 
 {
-    "fullname":"vijay ji"
+    "fullname":"Nilesh Singh"
  
 }
 
@@ -68,7 +68,7 @@ POST {{hostcompany}}/registerCompany
 Content-Type: application/json
 
 # {
-#     "companyName":"vijay di Company"
+#     "companyName":"Nilesh di Company"
 # }
 {
     "companyName":"Intel"
