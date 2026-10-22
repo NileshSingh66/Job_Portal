@@ -1,4 +1,4 @@
-const API_URL = import.meta.env.VITE_API_END_POINT || "http://localhost:8000/api/v1";
+const API_URL = "https://job-portal-gz1k.onrender.com/api/v1";
 
 export const USER_API_END_POINT = `${API_URL}/user`;
 export const JOB_API_END_POINT = `${API_URL}/job`;
