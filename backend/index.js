@@ -17,12 +17,9 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
 
-// Bulletproof CORS configuration
+// Fully open CORS configuration to prevent any browser blocking
 const corsOptions = {
-    origin: [
-        'http://localhost:5173',
-        'https://job-portal-frontend-1jtf.onrender.com'
-    ],
+    origin: true, // Automatically allows any requesting origin (localhost & live Render frontend)
     credentials: true,
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization']
